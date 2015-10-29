@@ -1,8 +1,7 @@
-
-
 # Portfolio
 
-A customized [Bootstrap](http://getbootstrap.com/) porfolio to showcase some of my personal and professional projects. 
+A customized [Bootstrap](http://getbootstrap.com/) porfolio to showcase some of my personal and professional projects.
+You can view my portfolio by clicking [here](http://samurairanderson.github.io/Portfolio/).
 
 ### Tools used on this project:
 <ul>
