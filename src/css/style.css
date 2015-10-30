@@ -21,25 +21,46 @@ img  {
 	width: 700px;
 }
 
+h1.page-header {
+  color: #222;
+}
+
 h3 {
 	margin-top: 0;
+	cursor: default;
+}
+
+h4 {
+	cursor: default;
 }
 
 h5 {
 	font-size: 24px;
+	cursor: default;
+}
+
+p {
+	cursor: default;
+}
+
+.btn-default {
+	border: solid 1px #698496;
 }
 
 .btn-primary {
-	background-color: #219bf1;
+	background-color: #698496;
+	border: solid 2px #698496;
 }
 
 .btn-primary:hover {
-	background-color: #077ed2;
+	background-color: #053251;
+	border: solid 2px #698496;
 }
 
 ul.tech {
 	list-style: none;
 	padding: 0px;
+	cursor: default;
 }
 
 ul.tech li{
@@ -124,11 +145,16 @@ footer .text-center {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    background: #9d9d9d;
+    background: #698496;
     border: solid 2px #f17721;
     color: #fff;
 }
 
+.col-lg-12 {
+  color: #9d9d9d;
+  cursor: default;
+}
+/*#698496
 /*iphone 6+ Portrait*/
 @media only screen
 and (min-device-width : 414px)

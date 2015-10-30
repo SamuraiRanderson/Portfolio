@@ -76,7 +76,6 @@ h2 a:hover {
 
 .wrapper img {
   display: block;
-  /*height: 100%;*/
   width: 2700px;
   top: 0;
   background-color: rgba(0,0,0,0.25);
@@ -101,6 +100,10 @@ h2 a:hover {
   position: fixed;
 }
 
+.wrapper-overlay h5 {
+  cursor: default;
+}
+
 .col-lg-12 {
 	padding: 0;
 	margin: 0;
@@ -111,6 +114,10 @@ h2 a:hover {
   height: 100%;
   width: 100%;
   overflow: hidden;
+}
+
+.col-lg-12 {
+  color: #9d9d9d;
 }
 
 /*-------------IPHONE 6 Plus------------*/
@@ -149,6 +156,11 @@ footer .text-center {
   bottom: 0;
 }
 
+.col-lg-12 {
+  font-size: 10px;
+  color: #9d9d9d;
+}
+
 }
 
 /* iPhone 6 Plus (landscape) */
@@ -180,6 +192,11 @@ footer .text-center {
   bottom: 0;
 }
 
+.col-lg-12 {
+  font-size: 10px;
+  color: #9d9d9d;
+}
+
 }
 
 /*-------------IPHONE 6------------*/
@@ -209,6 +226,11 @@ h5 {
 
 footer .text-center {
   bottom: 0;
+}
+
+.col-lg-12 {
+  font-size: 10px;
+  color: #9d9d9d;
 }
 
 }
@@ -257,6 +279,7 @@ h5 {
 }
 
 .wrapper-overlay {
+  height: 315px;
   top: 15%;
 }
 
@@ -266,6 +289,11 @@ h5 {
 
 footer .text-center {
   bottom: 0;
+}
+
+.col-lg-12 {
+  font-size: 8px;
+  color: #9d9d9d;
 }
 
 }
@@ -295,6 +323,11 @@ footer .footer-below {
   padding: 13px 0 25px 0;
 }
 
+.col-lg-12 {
+  font-size: 8px;
+  color: #9d9d9d;
+}
+
 }
 
 /*-------------IPHONE 4------------*/
@@ -307,12 +340,8 @@ footer .footer-below {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
-/*h5 {
-  font-size: 11px;
-}*/
-
 .wrapper-overlay {
-  height: 300px;
+  height: 315px;
 }
 
 }
@@ -326,6 +355,11 @@ footer .footer-below {
 
 h5 {
   font-size: 11px;
+}
+
+.col-lg-12 {
+  font-size: 8px;
+  color: #9d9d9d;
 }
 
 }
@@ -345,6 +379,11 @@ h5 {
   padding: 5px;
 }
 
+.col-lg-12 {
+  font-size: 16px;
+  color: #9d9d9d;
+}
+
 }
 
 /*------------- iPad ------------*/
@@ -358,6 +397,10 @@ and (orientation : portrait) {
 
 .wrapper img {
   height: 955px;
+}
+
+.col-lg-12 {
+  color: #9d9d9d;
 }
 
 }
@@ -379,6 +422,10 @@ and (orientation : portrait) {
 footer .text-center {
   height: 61px;
   bottom: 0;
+}
+
+.col-lg-12 {
+  color: #9d9d9d;
 }
 
 }
