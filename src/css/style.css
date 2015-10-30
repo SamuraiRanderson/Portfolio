@@ -29,6 +29,14 @@ h5 {
 	font-size: 24px;
 }
 
+.btn-primary {
+	background-color: #219bf1;
+}
+
+.btn-primary:hover {
+	background-color: #077ed2;
+}
+
 ul.tech {
 	list-style: none;
 	padding: 0px;
