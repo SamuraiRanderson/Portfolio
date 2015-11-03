@@ -16,9 +16,13 @@ body {
 
 img  {
 	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
-	height: 300px;
+	height: 300px !important;
 	margin-bottom: 10px;
-	width: 700px;
+	width: 600px;
+}
+
+h1.page-header {
+ 	color: #222;
 }
 
 h1.page-header {
@@ -58,12 +62,13 @@ p {
 }
 
 ul.tech {
+	cursor: default;
 	list-style: none;
 	padding: 0px;
 	cursor: default;
 }
 
-ul.tech li{
+ul.tech li {
 	background-color: #f17721;
 	border-radius: 5px;
 	color: white;
@@ -150,11 +155,20 @@ footer .text-center {
     color: #fff;
 }
 
+<<<<<<< HEAD
 .col-lg-12 {
   color: #9d9d9d;
   cursor: default;
 }
 /*#698496
+||||||| merged common ancestors
+=======
+.col-lg-12 {
+  	color: #9d9d9d;
+  	cursor: default;
+}
+
+>>>>>>> master
 /*iphone 6+ Portrait*/
 @media only screen
 and (min-device-width : 414px)
