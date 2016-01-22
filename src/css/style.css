@@ -25,6 +25,10 @@ h1.page-header {
  	color: #222;
 }
 
+h1.page-header {
+  color: #222;
+}
+
 h3 {
 	margin-top: 0;
 	cursor: default;
@@ -61,6 +65,7 @@ ul.tech {
 	cursor: default;
 	list-style: none;
 	padding: 0px;
+	cursor: default;
 }
 
 ul.tech li {
@@ -150,11 +155,20 @@ footer .text-center {
     color: #fff;
 }
 
+<<<<<<< HEAD
+.col-lg-12 {
+  color: #9d9d9d;
+  cursor: default;
+}
+/*#698496
+||||||| merged common ancestors
+=======
 .col-lg-12 {
   	color: #9d9d9d;
   	cursor: default;
 }
 
+>>>>>>> master
 /*iphone 6+ Portrait*/
 @media only screen
 and (min-device-width : 414px)
