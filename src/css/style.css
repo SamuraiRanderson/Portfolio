@@ -2,6 +2,30 @@ body {
     padding-top: 70px;
 }
 
+.col-md-7 {
+	display: flex;
+    -webkit-box-orient: horizontal; 
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    flex-direction: row;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    justify-content: center;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;  
+    align-items: center;
+}
+
+img {max-width:100%;}
+
+.img-responsive {
+	padding-bottom: 15px;
+}
+
 .navbar-inverse .navbar-brand:hover {
 	color: #f17721;
 }
@@ -12,13 +36,6 @@ body {
 
 .navbar-inverse .navbar-toggle .icon-bar {
 	background-color: #f17721;
-}
-
-img  {
-	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
-	height: 300px !important;
-	margin-bottom: 10px;
-	width: 600px;
 }
 
 h1.page-header {
