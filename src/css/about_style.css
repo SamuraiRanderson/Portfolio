@@ -8,6 +8,12 @@ h2 {
   font-size: 28px;
 }
 
+h5 {
+  margin: 5px 0 5px 0;
+  font-size: 24px;
+  padding: 10px;
+}
+
 .navbar-inverse .navbar-brand:hover {
 	color: #f17721;
 }
@@ -81,7 +87,7 @@ img {
 .overlay {
   background-color: rgba(0,0,0,0.25);
   border: solid 2px #fff;
-  color:white;
+  color: white;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 50%;
   height: 75%;
@@ -107,6 +113,8 @@ img {
 
 .col-lg-12 {
   color: #9d9d9d;
+  margin: 0;
+  padding: 0;
 }
 
 /*-------------IPHONE 6 Plus------------*/
@@ -120,7 +128,12 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation : portrait) {
 
 .overlay {
-  height: 69%;
+  height: 75%;
+}
+
+.col-lg-12 {
+  font-size: 10px;
+  color: #9d9d9d;
 }
 
 }
@@ -145,6 +158,11 @@ and (orientation : landscape) {
   padding: 10px 0 10px 0 !important;
 }
 
+.col-lg-12 {
+  font-size: 10px;
+  color: #9d9d9d;
+}
+
 }
 
 /*-------------IPHONE 6------------*/
@@ -157,8 +175,17 @@ and (orientation : landscape) {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
+.overlay {
+  height: 75%;
+}
+
 .overlay h5 {
   font-size: 15px !important;
+}
+
+.col-lg-12 {
+  font-size: 10px;
+  color: #9d9d9d;
 }
 
 }
@@ -170,7 +197,7 @@ and (orientation : landscape) {
   and (-webkit-min-device-pixel-ratio: 2) {
 
 .overlay {
-  height: 69%;
+  height: 65%;
 }
 
 .overlay h5 {
@@ -204,26 +231,9 @@ and (orientation : landscape) {
   padding: 10px 0 10px 0 !important;
 }
 
-}
-
-/* iPhone 5 (landscape) */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape)  {
-
-.overlay {
-  height: 69%;
-}
-
-.overlay h5 {
-  font-size: 10px;
-}
-
-.footer-below {
-  font-size: 10px;
-  padding: 5px 0 5px 0 !important;
+.col-lg-12 {
+  font-size: 8px;
+  color: #9d9d9d;
 }
 
 }
