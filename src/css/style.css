@@ -65,19 +65,18 @@ p {
 }
 
 .btn-default {
+	background-color: #f17721;
 	border: solid 1px #698496;
+	color: #FFF;
 }
 
 .btn-primary {
-	/*background-color: #698496;*/
 	background-color: #f17721;
 	border: solid 1px #ba540c;
 }
 
 .btn-primary:hover {
-	/*background-color: #053251;*/
 	background-color: #ea690f;
-	/*border: solid 2px #698496;*/
 }
 
 ul.tech {
