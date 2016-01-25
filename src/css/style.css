@@ -22,8 +22,10 @@ body {
 
 img {max-width:100%;}
 
-.img-responsive {
-	padding-bottom: 15px;
+.shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
 }
 
 .navbar-inverse .navbar-brand:hover {
@@ -69,15 +71,12 @@ p {
 }
 
 .btn-primary {
-	/*background-color: #698496;*/
 	background-color: #f17721;
 	border: solid 1px #ba540c;
 }
 
 .btn-primary:hover {
-	/*background-color: #053251;*/
 	background-color: #ea690f;
-	/*border: solid 2px #698496;*/
 }
 
 ul.tech {
@@ -177,15 +176,70 @@ footer .text-center {
   color: #9d9d9d;
   cursor: default;
 }
-/*iphone 6+ Portrait*/
+
+
+/*-------------IPHONE 6 Plus------------*/
+/*
+/*
+/* iPhone 6 Plus (portrait) */
 @media only screen
-and (min-device-width : 414px)
+and (min-device-width : 413px)
 and (max-device-width : 736px)
-and (orientation : portrait)
-and (-webkit-min-device-pixel-ratio: 2) {
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation : portrait) {
 
 h1 {
 	font-size: 40px !important;
+}
+
+h3.title {
+	margin-top: 15px !important;
+}
+
+}
+
+/* iPhone 6 Plus (landscape) */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 960px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation : landscape) {
+
+ h3.title {
+ 	margin-top: 15px;
+ }
+
+}
+
+/*-------------IPHONE 6------------*/
+/*
+/*
+/* iPhone 6 (portrait) */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+h3.title {
+ 	margin-top: 15px;
+}
+
+}
+
+/*-------------IPHONE 5------------*/
+/*
+/*
+/* iPhone 5 (portrait) */
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+h3.title {
+ 	margin-top: 15px;
 }
 
 }
