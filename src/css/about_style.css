@@ -12,6 +12,8 @@ h5 {
   margin: 5px 0 5px 0;
   font-size: 24px;
   padding: 10px;
+  color: #FFF;
+  font-weight: bold;
 }
 
 .navbar-inverse .navbar-brand:hover {
