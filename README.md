@@ -14,5 +14,3 @@ You can view my portfolio by clicking [**here**](http://samurairanderson.github.
 
 ![Home image](home.png)
 ![About image](about.png)
-![Mobile Home image](home-mobile.png)
-![Mobile Home image](about-mobile.png)
