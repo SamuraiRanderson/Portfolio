@@ -1,5 +1,3 @@
-![Portflio image](https://github.com/SamuraiRanderson/Portfolio/blob/master/dist/img/portfolio.png)
-
 #[Portfolio](http://samurairanderson.github.io/Portfolio/)
 
 A customized [Bootstrap](http://getbootstrap.com/) porfolio to showcase some of my personal and professional projects.
@@ -15,4 +13,6 @@ You can view my portfolio by clicking [**here**](http://samurairanderson.github.
 </ul>
 
 ![Home image](home.png)
-![Mobile Home image](mobile-home.png)
+![About image](about.png)
+![Mobile Home image](home-mobile.png)
+![Mobile Home image](about-mobile.png)
