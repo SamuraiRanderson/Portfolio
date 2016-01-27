@@ -5,7 +5,7 @@
 A customized [Bootstrap](http://getbootstrap.com/) porfolio to showcase some of my personal and professional projects.
 You can view my portfolio by clicking [**here**](http://samurairanderson.github.io/Portfolio/).
 
-### Tools used on this project:
+## Tools used on this project:
 <ul>
 <li>HTML5</li>
 <li> CSS3</li>
@@ -13,3 +13,6 @@ You can view my portfolio by clicking [**here**](http://samurairanderson.github.
 <li> Gulp</li>
 <li> Responsive Design</li>
 </ul>
+
+![Home image](home.png)
+![Mobile Home image](mobile-home.png)
