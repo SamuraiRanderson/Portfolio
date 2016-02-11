@@ -131,6 +131,7 @@ ul.pagination li.active a:hover {
 footer {
 	color: #fff;
 	left: 0;
+	padding: 20px 0 0 0;
 	position: absolute;
 	right: 0;
 	width: 100%;
@@ -180,7 +181,7 @@ footer .text-center {
 }
 
 
-/*-------------IPHONE 6 Plus------------*/
+/* ===== IPHONE 6 Plus ===== */
 /*
 /*
 /* iPhone 6 Plus (portrait) */
@@ -213,7 +214,7 @@ and (orientation : landscape) {
 
 }
 
-/*-------------IPHONE 6------------*/
+/* ===== IPHONE 6 ===== */
 /*
 /*
 /* iPhone 6 (portrait) */
@@ -229,7 +230,7 @@ h3.title {
 
 }
 
-/*-------------IPHONE 5------------*/
+/* ===== IPHONE 5 ===== */
 /*
 /*
 /* iPhone 5 (portrait) */
