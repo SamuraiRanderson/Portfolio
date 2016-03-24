@@ -1,8 +1,8 @@
 var gulp = require('gulp'),
-	minifyCSS = require('gulp-minify-css'),
+	cleanCSS = require('clean-css'),
 	rename = require('gulp-rename'),
-	notify = require('gulp-notify');
-	imagemin = require('gulp-imagemin');
+	notify = require('gulp-notify'),
+	imagemin = require('gulp-imagemin'),
 	pngquant = require('imagemin-pngquant');
 
 // Minify CSS and store the minified CSS files in the dist folder
