@@ -4,7 +4,7 @@ body {
 
 .col-md-7 {
 	display: flex;
-    -webkit-box-orient: horizontal; 
+    -webkit-box-orient: horizontal;
     -moz-box-orient: horizontal;
     box-orient: horizontal;
     flex-direction: row;
@@ -16,7 +16,7 @@ body {
 
     -webkit-box-align: center;
     -moz-box-align: center;
-    box-align: center;  
+    box-align: center;
     align-items: center;
 }
 
@@ -26,6 +26,7 @@ img {max-width:100%;}
 	-webkit-box-shadow: 0 8px 6px -6px black;
 	-moz-box-shadow: 0 8px 6px -6px black;
 	box-shadow: 0 8px 6px -6px black;
+  max-width:100%;
 }
 
 .navbar-inverse .navbar-brand:hover {
