@@ -21,8 +21,8 @@ gulp.task('images', function(){
 	gulp.src('src/img/*')
 		.pipe(imagemin({
 			progressive: true,
-            svgoPlugins: [{removeViewBox: false}],
-            use: [pngquant()]
+      svgoPlugins: [{removeViewBox: false}],
+      use: [pngquant()]
 		}))
 		.pipe(gulp.dest('dist/img'))
 		.pipe(notify({message: 'Gulp/Images complete!'}));
