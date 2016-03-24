@@ -1,18 +1,16 @@
-var gulp = require('gulp'),
-	minifyCSS = require('gulp-minify-css'),
-	rename = require('gulp-rename'),
+var gulp = require('gulp');
+	cssmin = require('gulp-cssmin');
+	rename = require('gulp-rename');
 	notify = require('gulp-notify');
 	imagemin = require('gulp-imagemin');
 	pngquant = require('imagemin-pngquant');
 
 // Minify CSS and store the minified CSS files in the dist folder
 gulp.task('styles', function(){
-	gulp.src('src/css/*.css')
-		.pipe(minifyCSS())
-		.pipe(rename(function(path){
-			path.extname = ".min";
-		}))
-		.pipe(gulp.dest('dist/css'))
+	gulp.src('src/**/*.css')
+		.pipe(cssmin())
+		.pipe(rename({suffix: '.min'}))
+		.pipe(gulp.dest('dist'))
 		.pipe(notify({message: 'Gulp/Styles complete!'}));
 });
 
