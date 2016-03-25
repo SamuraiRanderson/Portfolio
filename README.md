@@ -16,4 +16,4 @@ A porfolio to showcase some of my personal and professional projects.
 
 
 ![Home image](src/img/home.png)
-![About image](about.png)
+![About image](src/img/about.png)
