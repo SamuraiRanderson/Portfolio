@@ -15,5 +15,5 @@ A porfolio to showcase some of my personal and professional projects.
 [Click Here](http://samurairanderson.github.io/Portfolio/)
 
 
-![Home image](home.png)
+![Home image](src/img/home.png)
 ![About image](about.png)
