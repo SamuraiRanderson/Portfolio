@@ -110,7 +110,7 @@ ul.tech li.other {
 	background-color: #90CAF9;
 }
 
-ul.pagination li a {
+/*ul.pagination li a {
 	color: #f17721;
 	border-color: #9d9d9d;
 }
@@ -127,7 +127,7 @@ ul.pagination li.active a {
 
 ul.pagination li.active a:hover {
 	background-color: #f17721;
-}
+}*/
 
 footer {
 	color: #fff;
@@ -152,9 +152,9 @@ footer .footer-below {
     padding: 25px 0;
 }
 
-footer .text-center {
+/*footer .text-center {
 	width: 100%;
-}
+}*/
 
 .btn-social {
 	color: #fff;

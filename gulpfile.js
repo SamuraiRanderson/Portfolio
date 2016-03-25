@@ -32,4 +32,4 @@ gulp.task('watch', function(){
 	gulp.watch('src/css/*.css', ['styles']);
 });
 
-gulp.task('default', ['styles', 'watch', 'images']);
+gulp.task('default', ['styles', 'watch']);
