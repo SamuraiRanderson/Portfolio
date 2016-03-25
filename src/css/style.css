@@ -69,8 +69,15 @@ p {
 
 .btn-default {
 	background-color: #f17721;
-	border: solid 1px #698496;
+	/*border: solid 1px #698496;*/
+  border: solid 1px #ba540c;
 	color: #FFF;
+}
+
+.btn-default:hover {
+  cursor: default;
+  background-color: #f17721;
+  color: #FFF;
 }
 
 .btn-primary {
