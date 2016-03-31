@@ -1,6 +1,6 @@
 #Portfolio
 
-A porfolio to showcase some of my personal and professional projects.
+A Portfolio to showcase some of my personal and professional projects.
 
 ###Technologies Used:
 
