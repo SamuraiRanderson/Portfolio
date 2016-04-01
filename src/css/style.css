@@ -20,7 +20,8 @@ body {
     align-items: center;
 }
 
-img {max-width:100%;}
+img {max-width:100%;
+}
 
 .shadow {
 	-webkit-box-shadow: 0 8px 6px -6px black;
