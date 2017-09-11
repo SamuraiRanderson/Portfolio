@@ -3,17 +3,15 @@ body {
 }
 
 .col-md-7 {
-	display: flex;
+    display: flex;
     -webkit-box-orient: horizontal;
     -moz-box-orient: horizontal;
     box-orient: horizontal;
     flex-direction: row;
-
     -webkit-box-pack: center;
     -moz-box-pack: center;
     box-pack: center;
     justify-content: center;
-
     -webkit-box-align: center;
     -moz-box-align: center;
     box-align: center;
@@ -21,53 +19,54 @@ body {
 }
 
 img {
-  max-width:100%;
-  margin: 0;
+    max-width: 100%;
+    margin: 0;
 }
 
 .shadow {
-	-webkit-box-shadow: 0 8px 6px -6px black;
-	-moz-box-shadow: 0 8px 6px -6px black;
-	box-shadow: 0 8px 6px -6px black;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
 }
 
 .navbar-inverse .navbar-brand:hover {
-	color: #f17721;
+    color: #f17721;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-	color: #f17721;
+    color: #f17721;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-	background-color: #f17721;
+    background-color: #f17721;
 }
 
 h1.page-header {
- 	color: #222;
+    color: #222;
 }
 
 h1.page-header {
-  color: #222;
+    color: #222;
 }
 
 h3 {
-	margin-top: 0;
-	cursor: default;
+    margin-top: 0;
+    cursor: default;
 }
 
 h4 {
-	cursor: default;
+    cursor: default;
 }
 
 h5 {
-	font-size: 24px;
-	cursor: default;
+    font-size: 24px;
+    cursor: default;
 }
 
 p {
-	cursor: default;
+    cursor: default;
 }
+
 
 /*.btn-default {
 	background-color: #f17721;
@@ -76,52 +75,53 @@ p {
 }*/
 
 .btn-dev {
-	background-color: #f17721;
-	border: solid 1px #698496;
-	color: #FFF;
+    background-color: #f17721;
+    border: solid 1px #698496;
+    color: #FFF;
 }
 
 .btn-primary {
-	background-color: #f17721;
-	border: solid 1px #ba540c;
+    background-color: #f17721;
+    border: none;
 }
 
 .btn-dev:hover {
-	color: #FFF;
-	cursor: default;
+    color: #FFF;
+    cursor: default;
 }
 
 .btn-primary:hover {
-	background-color: #ea690f;
+    background-color: #ea690f;
 }
 
 ul.tech {
-	cursor: default;
-	list-style: none;
-	padding: 0px;
-	cursor: default;
+    cursor: default;
+    list-style: none;
+    padding: 0px;
+    cursor: default;
 }
 
 ul.tech li {
-	background-color: #0D47A1;
-	border-radius: 5px;
-	color: white;
-	display: inline-flex;
-	margin-top: 5px;
-	padding: 5px;
+    background-color: #0D47A1;
+    border-radius: 5px;
+    color: white;
+    display: inline-flex;
+    margin-top: 5px;
+    padding: 5px;
 }
 
 ul.tech li.js {
-	background-color: #1976D2;
+    background-color: #1976D2;
 }
 
 ul.tech li.api {
-	background-color: #42A5F5;
+    background-color: #42A5F5;
 }
 
 ul.tech li.other {
-	background-color: #90CAF9;
+    background-color: #90CAF9;
 }
+
 
 /*ul.pagination li a {
 	color: #f17721;
@@ -143,12 +143,12 @@ ul.pagination li.active a:hover {
 }*/
 
 footer {
-	color: #fff;
-	left: 0;
-	padding: 20px 0 0 0;
-	position: absolute;
-	right: 0;
-	width: 100%;
+    color: #fff;
+    left: 0;
+    padding: 20px 0 0 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
 }
 
 footer .footer-above {
@@ -165,12 +165,13 @@ footer .footer-below {
     padding: 25px 0;
 }
 
+
 /*footer .text-center {
 	width: 100%;
 }*/
 
 .btn-social {
-	color: #fff;
+    color: #fff;
     border-radius: 100%;
     border: 2px solid #fff;
     display: inline-block;
@@ -189,74 +190,62 @@ footer .footer-below {
     border: solid 2px #f17721;
     color: #fff;
 }
+
 .col-lg-12 {
-  color: #9d9d9d;
-  cursor: default;
+    color: #9d9d9d;
+    cursor: default;
 }
 
 
 /* ===== IPHONE 6 Plus ===== */
+
+
 /*
 /*
 /* iPhone 6 Plus (portrait) */
-@media only screen
-and (min-device-width : 413px)
-and (max-device-width : 736px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation : portrait) {
 
-h1 {
-	font-size: 40px !important;
+@media only screen and (min-device-width: 413px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    h1 {
+        font-size: 40px !important;
+    }
+    h3.title {
+        margin-top: 15px !important;
+    }
 }
 
-h3.title {
-	margin-top: 15px !important;
-}
-
-}
 
 /* iPhone 6 Plus (landscape) */
-@media only screen
-and (min-device-width : 414px)
-and (max-device-width : 960px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation : landscape) {
 
- h3.title {
- 	margin-top: 15px;
- }
-
+@media only screen and (min-device-width: 414px) and (max-device-width: 960px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    h3.title {
+        margin-top: 15px;
+    }
 }
 
+
 /* ===== IPHONE 6 ===== */
+
+
 /*
 /*
 /* iPhone 6 (portrait) */
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
 
-h3.title {
- 	margin-top: 15px;
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    h3.title {
+        margin-top: 15px;
+    }
 }
 
-}
 
 /* ===== IPHONE 5 ===== */
+
+
 /*
 /*
 /* iPhone 5 (portrait) */
 
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-h3.title {
- 	margin-top: 15px;
-}
-
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    h3.title {
+        margin-top: 15px;
+    }
 }
