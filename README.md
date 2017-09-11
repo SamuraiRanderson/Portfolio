@@ -1,8 +1,8 @@
-#Portfolio
+# Portfolio
 
 A Portfolio to showcase some of my personal and professional projects.
 
-###Technologies Used:
+### Technologies Used:
 
 * HTML5
 * CSS3
@@ -11,7 +11,7 @@ A Portfolio to showcase some of my personal and professional projects.
 * Responsive Design
 
 
-###Demo:
+### Demo:
 [Click Here](http://samurairanderson.github.io/Portfolio/)
 
 
