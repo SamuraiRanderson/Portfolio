@@ -27,6 +27,7 @@ img {
     -webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;
     box-shadow: 0 8px 6px -6px black;
+    max-width: 100%;
 }
 
 .navbar-inverse .navbar-brand:hover {
@@ -70,37 +71,39 @@ p {
 
 /*.btn-default {
 	background-color: #f17721;
-	border: solid 1px #698496;
-	color: #FFF;
-}*/
+	/*border: solid 1px #698496;*/
 
-.btn-dev {
+border: solid 1px #ba540c;
+color: #FFF;
+
+}
+*/ .btn-dev {
     background-color: #f17721;
     border: solid 1px #698496;
     color: #FFF;
 }
-
+.btn-default:hover {
+    cursor: default;
+    background-color: #f17721;
+    color: #FFF;
+}
 .btn-primary {
     background-color: #f17721;
     border: none;
 }
-
 .btn-dev:hover {
     color: #FFF;
     cursor: default;
 }
-
 .btn-primary:hover {
     background-color: #ea690f;
 }
-
 ul.tech {
     cursor: default;
     list-style: none;
     padding: 0px;
     cursor: default;
 }
-
 ul.tech li {
     background-color: #0D47A1;
     border-radius: 5px;
@@ -109,19 +112,15 @@ ul.tech li {
     margin-top: 5px;
     padding: 5px;
 }
-
 ul.tech li.js {
     background-color: #1976D2;
 }
-
 ul.tech li.api {
     background-color: #42A5F5;
 }
-
 ul.tech li.other {
     background-color: #90CAF9;
 }
-
 
 /*ul.pagination li a {
 	color: #f17721;
@@ -141,7 +140,6 @@ ul.pagination li.active a {
 ul.pagination li.active a:hover {
 	background-color: #f17721;
 }*/
-
 footer {
     color: #fff;
     left: 0;
@@ -150,26 +148,21 @@ footer {
     right: 0;
     width: 100%;
 }
-
 footer .footer-above {
     background-color: #222;
     margin-top: 20px;
 }
-
 footer .footer-col {
     margin-bottom: 50px;
 }
-
 footer .footer-below {
     background-color: #222;
     padding: 25px 0;
 }
 
-
 /*footer .text-center {
 	width: 100%;
 }*/
-
 .btn-social {
     color: #fff;
     border-radius: 100%;
@@ -181,7 +174,6 @@ footer .footer-below {
     text-align: center;
     width: 50px;
 }
-
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
@@ -190,60 +182,49 @@ footer .footer-below {
     border: solid 2px #f17721;
     color: #fff;
 }
-
 .col-lg-12 {
     color: #9d9d9d;
     cursor: default;
 }
 
-
 /* ===== IPHONE 6 Plus ===== */
-
 
 /*
 /*
 /* iPhone 6 Plus (portrait) */
-
 @media only screen and (min-device-width: 413px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     h1 {
         font-size: 40px !important;
     }
+    
     h3.title {
         margin-top: 15px !important;
     }
 }
 
-
 /* iPhone 6 Plus (landscape) */
-
 @media only screen and (min-device-width: 414px) and (max-device-width: 960px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
     h3.title {
         margin-top: 15px;
     }
 }
 
-
 /* ===== IPHONE 6 ===== */
-
 
 /*
 /*
 /* iPhone 6 (portrait) */
-
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     h3.title {
         margin-top: 15px;
     }
 }
 
-
 /* ===== IPHONE 5 ===== */
-
 
 /*
 /*
 /* iPhone 5 (portrait) */
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     h3.title {
         margin-top: 15px;
